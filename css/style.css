@@ -1,0 +1,229 @@
+
+
+/*==================================== 
+        common css start here
+====================================*/
+            
+
+/*======   common font link here  ========*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap");
+
+/*======   common color & FontFamily here ========*/
+
+:root{
+    --primaryFont: "Josefin Sans", sans-serif;
+    --secondaryFont: "Roboto", sans-serif;
+    --logoColor: #ff6f61;
+    --textColor:#11161e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, p, a, span{
+  margin: 0;
+  padding: 0;
+}
+
+/*======   common body fontFamily here ========*/
+
+body{
+    font-family: var(--primaryFont);
+}
+
+/*==================================== 
+        common css end
+====================================*/
+
+
+        /*==================================== 
+                    Table Contant:
+        Website Name: Aytor e-commerce
+        Developer: Ideatech BD
+        Developer URL: 
+        Licence:    
+
+                1.Home
+                    * navbar
+                    * banner
+                    * service
+                    * fotter
+        ====================================*/
+
+                    /* Home Page start
+
+            /*==================================== 
+                     nav bar start
+            ====================================*/
+
+/*=========================================================== 
+        large (lg) device nav menu list item style design
+===========================================================*/
+
+.myCustomNav #navMenu ul li a{
+    padding: 37px 22px;
+    color:var(--textColor);
+    font-size: 16px;
+    line-height: 26px;
+}   
+
+/* large device menu hover*/
+
+.myCustomNav #navMenu ul li:hover a{
+    color: var(--logoColor);
+}
+
+/*===================================================== 
+    large (lg) device icon group style design start
+=====================================================*/
+
+.myCustomNav .iconsGroup li{
+    display: inline-block;
+} 
+
+
+.myCustomNav .iconsGroup li span,
+.myCustomNav .iconsGroup li a{
+    color: var(--textColor);
+    margin: 0 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+/* large device icon group hover*/
+
+.myCustomNav .iconsGroup li:hover span,
+.myCustomNav .iconsGroup li:hover a{
+    color: var(--logoColor);
+}
+
+/*=========================================================== 
+    large (lg) device icon group cartNumber 0 style design
+===========================================================*/
+          
+.myCustomNav .iconsGroup li a span.cartNumber{
+    background-color: var(--logoColor);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+    position: absolute;
+    top: -5px;
+    right: -17px;
+    font-size: 15px;
+}
+
+
+
+/*===================================================================
+=====================================================================
+===================================================================*/
+
+
+
+/*===================================================== 
+    small (sm) device icon cartNumber 0 style design
+=====================================================*/
+          
+.smNavbar .iconsGroup li a span.cartNumber{
+background-color: var(--logoColor);
+color: white;
+border-radius: 50%;
+width: 15px;
+height: 15px;
+display: inline-block;
+text-align: center;
+line-height: 17px;
+top: -5px;
+right: -17px;
+font-size: 15px;
+position: absolute;
+}
+
+/*========================================================== 
+    small (sm) device icon group & cartNumber 0 style design
+==========================================================*/
+ 
+.smNavbar .iconsGroup li{
+    display: inline-block;
+}
+
+.smNavbar .iconsGroup li span,
+.smNavbar .iconsGroup li a{
+    color: var(--textColor);
+    margin: 0 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+/* small device icon group hover*/
+
+.smNavbar .iconsGroup li a:hover{
+    color: var(--logoColor);
+}
+
+
+
+/*====================================================== 
+    small (sm) device sidebar button menu style design
+=======================================================*/
+
+.smNavbar .menu button{
+    border: none;
+    font-size: 22px;
+    background-color: white;
+}
+
+/* small device menu button hover*/
+.smNavbar .menu button:hover {
+    color: var(--logoColor);
+}
+
+.smNavbar .smMenu ul li a{
+    color: var(--textColor);
+    padding: 15px 10px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* small device menu last item border line none */
+
+.smNavbar .smMenu ul li:last-child a{
+    border-bottom: none;
+}
+
+/* small device menu hover*/
+
+.smNavbar .smMenu ul li:hover a{
+    color: var(--logoColor);
+}
+
+
+/*===================================================================
+=====================================================================
+===================================================================*/
+
+
+
+
+                    /* Home Page end
+
+            /*==================================== 
+                        nav bar end
+            ====================================*/

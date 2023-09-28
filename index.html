@@ -1,0 +1,470 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<!--======================================= 
+        basic markup html head start
+========================================-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor Project</title>
+
+            <!--========================================= 
+                    (1st link) fontawesome css link
+            ==========================================-->
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    
+            <!--========================================= 
+                    (middle link) bootstrap css link
+            ==========================================-->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">          
+
+    <link rel="stylesheet" href="./css/slick.css">
+
+            <!--========================================= 
+                    (last link) my customize css link
+            ==========================================-->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<!--==================================== 
+        basic markup html head end
+=====================================-->
+
+<body>
+
+<!--======================================================================
+                bootstrap large (lg) device nav bar start
+=======================================================================-->
+
+    <nav class="navbar navbar-expand-lg myCustomNav d-none d-lg-block">
+
+            <!--========================================= 
+                    responsive large (lg) device show
+                    d-none = small device not show
+                    d-lg-block = big device show
+            ==========================================-->
+        
+    <!--============================================================= 
+            special width (container of nav bar) start
+    ==============================================================-->
+
+        <div class="container">
+
+            <!--========================================== 
+                    (1st logo) navbar brand logo start
+            ===========================================-->
+            
+            <div>          
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Logo.png" alt="" width="130px">
+                </a>
+            </div>
+
+            <!--========================================== 
+                    (1st logo) navbar brand logo end
+            ===========================================-->
+
+<!-- =================================================================================--> 
+<!-- =================================================================================--> 
+
+            <!--========================================== 
+                (2nd menu) navbar menu item list start
+            ===========================================-->
+                           
+            <div class="collapse navbar-collapse" id="navMenu"> 
+                    <!-- ID-name decliar (navMenu) -->   
+
+                    <!--========================================== 
+                                menu name ul li start
+                    ===========================================-->
+                    
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">  
+                        <!--  (m-auto) margin auto, left, right// ????? -->
+
+                    <li class="nav-item"> 
+                        <a class="nav-link" aria-current="page" href="#">Home </a>
+                        <!-- Home menu name (anchor=a tag to link)-->
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Shop</a>
+                        <!-- Shop menu name -->
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Page</a>
+                        <!-- Page menu name -->
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Features</a>
+                        <!-- Features menu name -->
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        <!-- Blog menu name -->
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        <!-- Contact menu name -->
+                    </li>
+
+
+                            <!--=================================================================
+                                if menu item list expand just copy-past below 3 line: 
+
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                                </li>
+
+                            ==================================================================-->
+
+                </ul>
+
+                    <!--========================================== 
+                                menu name ul li end
+                    ===========================================-->
+
+            </div>
+
+            <!--========================================== 
+                (2nd menu) navbar menu item list end
+            ===========================================-->
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+
+            <!--========================================== 
+                (3rd icon) navbar icon group start
+            ===========================================-->         
+
+            <div class="iconsGroup">
+                <!-- (iconGroup) icon group class-name decliar  -->
+
+                    <!--=========================================== 
+                            icon group list ul li start
+                    ============================================-->
+
+                <ul>
+                                           
+                    <li>
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <!-- search icon -->                       
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-user"></i> 
+                            <!-- user icon -->
+                            <span class="cartNumber">0</span> 
+                            <!-- 0 (zero) icon -->
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i> 
+                            <!-- heart/wishlist icon -->
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i> 
+                            <!-- shopping cart icon -->
+                            <span class="cartNumber">0</span> 
+                            <!-- 0 (zero) icon -->
+                        </a>
+                    </li>
+
+                        
+                            <!--=================================================================
+                                if you icon group item list expand just copy-past below 5 lines: 
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                        // Just Change Icon name //
+                                    </a>
+                                </li>
+
+                            ================================================================-->
+                                
+                </ul>
+
+                    <!--=========================================== 
+                            icon group list ul li end
+                    ============================================-->
+
+            </div>
+
+            <!--========================================== 
+                (3rd icon) navbar icon group end
+            ===========================================-->
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+            
+        </div>
+
+    <!--============================================================ 
+            special width (container of nav bar) end
+    =============================================================--> 
+
+    </nav>
+
+<!--========================================================================
+                bootstrap large (lg) device nav bar end
+=========================================================================-->
+
+
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+
+
+            
+<!--========================================================================
+                bootstrap small (sm) device nav bar start
+=========================================================================-->
+
+    <nav class="smNavbar d-block d-lg-none py-3">
+    
+                    <!--======================================= 
+                            responsive sm device show
+                            d-block = small device show
+                            d-lg-none = big device not show
+                            (py-3) padding top
+                            (smNavbar) class-namne decliar
+                    ========================================-->
+
+    <!--===================================================================== 
+            special width (container of nav bar) small (sm) device start
+    ======================================================================-->
+        
+        <div class="container">
+
+            <!--================================================================ 
+                    special column (row of nav bar) small (sm) device start
+                    (aligb-items-center) for all item center fixd
+            =================================================================-->
+
+            <div class="row align-items-center">
+
+    <!--============================================================= 
+            (1st button) small device (sm) button menu design start
+    ==============================================================-->
+
+                <div class="menu col-2">  
+                <!-- (menu col-2) set class name & column, 2 column betwin 12 column -->  
+                                    
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                        <!-- for button toggle & target-->
+
+                        <i class="fa-solid fa-align-left"></i>
+                        <!-- align-left icon with button tag-->
+
+                    </button> 
+
+                    <!--==================================================================== 
+                            small (sm) device sidebar offcanvas menu from bootstrap start
+                    =====================================================================-->         
+                    
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                         
+                        <!--===================================================================== 
+                        small (sm) device sidebar left logo & right cross button (X) Design start 
+                        ======================================================================-->
+
+                        <div class="offcanvas-header">
+   
+                            <a href="#">
+                                <img  src="./images/Logo.png" alt="" style="width: 60px;">
+                            </a>
+                            <!-- logo for side menu bar -->
+
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                             <!-- crose button for side menu bar close (X) -->
+
+                        </div>
+
+                        <!--===================================================================== 
+                        small (sm) device sidebar left logo & right cross button (X) Design end 
+                        ======================================================================-->
+
+
+                        <!--=========================================================== 
+                            small (sm) device sidebar menu list item Design start
+                        ============================================================-->
+
+                        <div class="offcanvas-body smMenu">
+                            <!-- (smMenu) class name decliar-->
+
+                            <ul>
+                                <li>
+                                    <a href="">Home</a>
+                                    <!-- sidebar menu name (Home)-->
+                                </li>
+
+                                <li>
+                                    <a href="">Shop</a>
+                                    <!-- sidebar menu name (Shop)-->
+                                </li>
+
+                                <li>
+                                    <a href="">Page</a>
+                                    <!-- sidebar menu name (Page)-->
+                                </li>
+
+                                <li>
+                                    <a href="">Features</a>
+                                    <!-- sidebar menu name (Features)-->
+                                </li>
+
+                                <li>
+                                    <a href="">Blog</a>
+                                    <!-- sidebar menu name (Blog)-->
+                                </li>
+                             
+                                <li>
+                                    <a href="">Contact</a>
+                                    <!-- sidebar menu name (Contact)-->
+                                </li>
+                                
+                            </ul>
+
+                        </div>
+
+                        <!--=========================================================== 
+                            small (sm) device sidebar menu list item Design end
+                        ============================================================-->
+
+                    </div>
+
+                    <!--================================================================= 
+                            small (sm) device sidebar offcanvas menu from bootstrap end
+                    ==================================================================-->           
+                    
+                </div>
+                
+                
+    <!--============================================================= 
+            (1st button) small device (sm) button menu design end
+    ==============================================================-->
+
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+
+
+    <!--========================================================= 
+            (2nd logo) small device (sm) logo design start
+    ==========================================================-->
+                
+           
+                <div class="logo text-center col-8">
+                    <!-- (text-center) for logo center fixd-->
+                    <!-- (logo col-8) set class name & column, 8 column betwin 12 column --> 
+                    
+                    <a href="#">
+                        <img src="./images/LogoSm.png" alt="" style="width: 90px;">
+                    </a>
+
+                </div>
+
+    <!--========================================================= 
+            (2nd logo) small device (sm) logo design end
+    ==========================================================-->
+
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+
+
+    <!--==================================================================== 
+            (3rd shopingCart) small device (sm) shopingCart design start
+    =====================================================================-->
+    
+                <div class="iconsGroup col-2">
+
+                    <ul>
+                        
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span class="cartNumber">0</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+
+    <!--================================================================== 
+            (3rd shopingCart) small device (sm) shopingCart design end
+    ===================================================================-->
+
+
+            </div>
+
+            <!--============================================================= 
+                    special column (row of nav bar) small (sm) device end
+            ==============================================================-->
+
+        </div>
+
+    <!--==================================================================== 
+          special width (container of nav bar) small (sm) device end
+    =====================================================================-->
+    </nav>
+    
+<!--========================================================================
+                bootstrap small (sm) device nav bar end
+=========================================================================-->
+
+
+<!-- =================================================================================--> 
+<!-- =================================================================================-->
+    
+  
+    <!--==================================== 
+            (1st) jquery link 
+    ====================================-->
+
+    <script src="./js/jquery.js"></script>
+
+    <!--==================================== 
+            (3rd party) 
+            jquery js link
+            bootstrap js link
+    =====================================-->
+
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!--==================================== 
+            (last)customize js link 
+    =====================================-->
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
